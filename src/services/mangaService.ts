@@ -2,8 +2,8 @@
  * Service voor het beheren van de manga collectie
  * Handelt API communicatie en lokale opslag af
  */
-import { API_CONFIG } from "./api";
-import { storage } from "@/src/utils/storage";
+import { API_CONFIG } from "@/src/config/api";
+import { storage } from "@/src/config/storage";
 import { Manga } from "@/src/types/manga";
 import feedbackService from "./feedbackService";
 

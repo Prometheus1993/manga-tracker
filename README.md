@@ -52,18 +52,19 @@ Een React Native applicatie voor het bijhouden van je manga collectie, leesvoort
 ```plaintext
 manga-tracker/
 ├── app/              # Expo Router pages
-│   ├── (tabs)/      # Tab-based navigatie schermen
-│   └── (modals)/    # Modale schermen
-├── src/             # Source code
-│   ├── components/  # React componenten
-│   │   ├── ui/     # Herbruikbare UI componenten
-│   │   └── features/# Feature-specifieke componenten
-│   ├── hooks/      # Custom React hooks
-│   ├── services/   # API en device services
-│   ├── types/      # TypeScript type definities
-│   ├── utils/      # Helper functies
-│   └── styles/     # Styling definities
-└── db.json         # Database
+│   ├── (tabs)/       # Tab-based navigatie schermen
+│   └── (modals)/     # Modale schermen
+├── src/              # Source code
+│   ├── components/   # React componenten
+│   │   ├── ui/       # Herbruikbare UI componenten
+│   │   └── features/ # Feature-specifieke componenten
+│   ├── hooks/        # Custom React hooks
+│   ├── services/     # API en device services
+│   ├── config/       # App configuratie en constanten
+│   ├── types/        # TypeScript type definities
+│   ├── utils/        # Helper functies
+│   └── styles/       # Styling definities
+└── db.json           # Database
 ```
 
 ### State Management

@@ -2,7 +2,7 @@
  * Service voor het beheren van leeslocaties met GPS coördinaten
  */
 import * as Location from "expo-location";
-import { storage } from "@/src/utils/storage";
+import { storage } from "@/src/config/storage";
 import { ReadingLocation } from "@/src/types/manga";
 import { Platform } from "react-native";
 

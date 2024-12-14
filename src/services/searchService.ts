@@ -1,7 +1,7 @@
 /**
  * Service voor het zoeken en toevoegen van manga's via de MyAnimeList API
  */
-import { API_CONFIG } from "./api";
+import { API_CONFIG } from "@/src/config/api";
 import { MALManga } from "@/src/types/manga";
 import { createMangaFromMAL } from "@/src/utils/mangaHelpers";
 import mangaService from "./mangaService";
