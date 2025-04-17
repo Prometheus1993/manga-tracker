@@ -40,25 +40,6 @@ const TabsLayout = () => {
         }}
       />
       {/* Tracker tab - Voor leesvoortgang en herinneringen */}
-      <Tabs.Screen
-        name="tracker"
-        options={{
-          title: "Tracker",
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="calendar" size={size} color={color} />
-          ),
-        }}
-      />
-      {/* Locaties tab - Voor het bijhouden van leeslocaties */}
-      <Tabs.Screen
-        name="locations"
-        options={{
-          title: "Reading Spots",
-          tabBarIcon: ({ color, size }) => (
-            <Ionicons name="location" size={size} color={color} />
-          ),
-        }}
-      />
     </Tabs>
   );
 };

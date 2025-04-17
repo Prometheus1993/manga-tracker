@@ -21,7 +21,7 @@ const searchManga = async (query: string) => {
       )}&fields=id,title,main_picture,num_volumes,status&limit=20`,
       {
         headers: {
-          "X-MAL-CLIENT-ID": "your-api-key"!,
+          "X-MAL-CLIENT-ID": "559c5b8be532454b7367e2c518e82d0f"!,
         },
       }
     );
